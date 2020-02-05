@@ -1,0 +1,21 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Bannerocasion extends Model
+{
+    protected $table = 'banner_ocasion';
+    
+    protected $fillable = [
+
+        'nombre','nombre_ingles','imagen','imagen_ingles','activa'
+
+    ];
+
+    public function category()
+    {
+        return $this->hasMany('App\Category');
+    }
+}

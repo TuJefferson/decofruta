@@ -1,0 +1,117 @@
+
+   /*TOP NAVAR*/
+
+   .top_navbar_font{
+      color: #31939a;
+      font-size: 17px;
+   }
+
+   .top_navbar_font:hover{
+      color: #4fbdba;
+   }
+
+   .top_navbar_font_a{
+      color: #31939a;
+      font-size: 17px;
+   }
+
+   .top_navbar_ditem:hover,.top_navbar_ditem:focus
+   {
+      color:#31939a;
+      text-decoration:none;
+      background-color:rgba(28, 186, 202, 0.1)
+   }
+
+   .top_navbar_dmenu{
+         position:absolute;
+         top:100%;
+         left:0;
+         z-index:1000;
+         display:none;
+         float:left;
+         min-width:10rem;
+         padding:.5rem 0;
+         margin:.125rem 0 0;
+         font-size:1rem;
+         color:#4b566b;
+         text-align:left;
+         list-style:none;
+         background-color:#fff;
+         background-clip:padding-box;
+         border:1px solid #e3e9ef;
+         border-radius:.3125rem;
+         box-shadow:0 0.25rem 0.5625rem -0.0625rem rgba(0,0,0,0.03),0 0.275rem 1.25rem -0.0625rem rgba(0,0,0,0.05)
+   }
+
+   .top_nav_expand{
+         -ms-flex-flow:row nowrap;
+         flex-flow:row nowrap;
+         -ms-flex-pack:start;
+         justify-content:flex-start
+      }
+
+   .top_nav_expand .top_navbar_mi{
+      -ms-flex-direction:row;
+         flex-direction:row
+   }
+
+   .top_nav_expand .top_navbar_collapse{
+         display:-ms-flexbox !important;
+         display:flex !important;
+         -ms-flex-preferred-size:auto;
+         flex-basis:auto
+      }
+
+    .top_nav_expand .top_navbar_mi .top_navbar_link{
+      padding-top:1.125rem;
+      padding-bottom:.875rem
+      color:#4fbdba;
+    }
+
+    .top_nav_expand .top_navbar_dmenu{
+        margin-top:0;
+        border-color:#fff;
+        background-color:#fff;
+        box-shadow:0 0.25rem 0.5625rem -0.0625rem rgba(0,0,0,0.03),0 0.275rem 1.25rem -0.0625rem rgba(0,0,0,0.05)
+    }
+
+   .top_nav_expand .dropdown:hover>.top_navbar_dmenu{
+        display:block;
+        -webkit-animation:slide-up .25s ease-in-out;
+        animation:slide-up .25s ease-in-out
+    }
+
+   .top_navbar_s{
+      display:-ms-flexbox;
+      display:flex;
+      -ms-mi_flex-wrap:wrap;
+      mi_flex-wrap:wrap;
+      padding-left:0;
+      margin-bottom:0;
+      list-style:none
+   }
+
+   .top_navbar_link{
+      display:block;
+      padding:.75rem 1.25rem
+   }
+
+   .top_navbar_link:hover,.top_navbar_link:focus{
+      text-decoration:none
+   }
+
+   .top_navbar_ditem{
+      display:block;
+      width:100%;
+      padding:.425rem 1.3rem;
+      clear:both;
+      font-weight:400;
+      color:#4b566b;
+      text-align:inherit;
+      white-space:nowrap;
+      background-color:transparent;
+      border:0
+   }
+
+   /*TOP NAVAR*/
+
